@@ -1,0 +1,65 @@
+* {
+    font-family: Tahoma;
+}
+
+body {
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.baner {
+    background-color: #519657;
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+
+#baner1 {
+    width: 70%;
+}
+
+#baner2 {
+    width: 30%;
+}
+
+.center {
+    background-color: #E1E1E1;
+    height: 450px;
+}
+
+#left, #right {
+    width: 25%;
+}
+
+#middle {
+    width: 50%;
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #80C683;
+    text-align: center;
+    width: 100%;
+}
+
+img[src="obraz2.jpg"] {
+    width: 100%;
+    padding: 100px 0;
+}
+
+table {
+    border: solid #80C683 1px;
+}
+
+td, th{
+    padding: 2px;
+}
+
+tr:hover {
+    background-color: #80C683;
+}
+
+tr:last-child {
+    background-color: red;
+}
